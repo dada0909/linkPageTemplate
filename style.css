@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poor Story&display=swap');
 body {
     min-height: 100%;
     height: 100%;
@@ -5,8 +7,117 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Poor Story', sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    margin-bottom: 0; /* h1의 아래쪽 마진을 0으로 설정하여 공백을 줄임 */
+}
+  
+h3 {
+    margin-top: 0; /* h3의 위쪽 마진을 0으로 설정하여 공백을 줄임 */
 }
 
 button {
     width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E9F5F6;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: inherit;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.container1 {
+    position: relative;
+  }
+
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 20%;
+    background-color: #C6E2E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 50%;
+    border-radius: 10px;
+    text-align: center
+}
+ 
+
+.container2 {
+    position: relative;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 20%;
+    background-color: #C6E2E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 50%;
+    border-radius: 10px;
+    text-align: center
+
+}
+
+
+.container3 {
+    position: relative;
+}
+
+.overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 20%;
+    background-color: #C6E2E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 50%;
+    border-radius: 10px;
+    text-align: center
+
+}
+
+.container4 {
+    position: relative;
+}
+
+.overlay4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 20%;
+    background-color: #C6E2E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 50%;
+    border-radius: 10px;
+    text-align: center
+
 }
